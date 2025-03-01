@@ -14,6 +14,9 @@ import HighlightCard from "../../components/HighlightCard/HighlightCard";
 import {ScrollView} from "react-native";
 import React from "react";
 import TransactionCard from "../../components/TransactionCard/TransactionCard";
+import {createMaterialBottomTabNavigator} from "react-native-paper/react-navigation";
+
+const Tab = createMaterialBottomTabNavigator();
 
 export function Dashboard () {
     return (
